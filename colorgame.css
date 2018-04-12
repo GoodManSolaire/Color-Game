@@ -1,80 +1,80 @@
 body {
-	background-color: #232323;
-	margin: 0;
-	font-family: "Montserrat";
-}
-
-h1 {
-	text-align: center;
-	line-height: 1.1;
-	font-weight: normal;
-	color: white;
-	background-color: steelblue;
-	margin: 0;
-	text-transform: uppercase;
-	padding: 20px 0;
-}
-
-#colorDisplay {
-	font-size: 200%;
-}
-
-#message {
-	display: inline-block;
-	width: 20%;
-}
-
-.alert {
-  margin: 10%;
-  font-size: 1.3em;
-  position: absolute;
-}
-
-#container {
-	margin: 20px auto;
-	max-width: 600px;
-}
-
-.square {
-	width: 30%;
-	background-color: purple;
-	padding-bottom: 30%;
-	float: left;
-	margin: 1.66%;
-	border-radius: 15%;
-	transition: background 0.4s;
-	--webkit-tranition: background 0.4s;
-	--moz-tranition: background 0.4s;
-  cursor: pointer;
-}
-
-#stripe {
-	background-color: white;
-	height: 30px;
-	text-align: center;
-}
-
-.selected {
-	color: white;
-	background: steelblue;
+    background: #333;
+    margin: 0;
+    font-family: 'Raleway', Tahoma, Arial, sans-serif;
 }
 
 button {
-	border: none;
-	background: none;
-	text-transform: uppercase;
-	height: 100%;
-	font-weight: 700;
-	color: steelblue;
-	letter-spacing: 1px;
-	font-size: inherit;
-	transition: all 0.3s;
-	--webkit-tranition: all 0.3s;
-	--moz-tranition: all 0.3s;
-	outline: none;
+    font-family: 'Raleway', Tahoma, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    color: steelblue;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    outline: none;
 }
 
 button:hover {
-	color: white;
-	background: steelblue;
+    color: white;
+    background: steelblue;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    background: steelblue;
+    margin: 0;
+    padding: 20px 0;
+    line-height: 1.15;
+}
+
+#stripe {
+    background: #fff;
+    height: 30px;
+    text-align: center;
+    color: #232323;
+}
+
+#colorDisplay {
+    font-size: 2em;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-size: 1.25rem;
+}
+
+.container {
+    max-width: 860px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 20%;
+    -webkit-transition: background 0.6s;
+    transition: background 0.6s;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.active {
+    background: steelblue;
+    color: white;
 }
